@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    /* Add your animated background image below */
+    background: url("https://i.pinimg.com/originals/d2/e4/33/d2e433a119194661db9909a4162bcd36.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Optional: subtle overlay to increase content contrast */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* adjust for brightness */
+    z-index: -1;
+}
+
+
+.whole-theme {
+    width: 360px;
+    display: inline-block;
+    margin-left: 550px;
+
+}
+
+.main-container {
+    display: block;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.gift-button {
+    display: inline-block;
+    margin-left: 640px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.ncea-button {
+    background-color: rgb(251, 207, 47);
+    outline: none;
+    border: 3px solid rgb(228, 185, 30);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.ncea-button:hover {
+    background-color: white;
+    color: rgb(251, 207, 47);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.intro-text {
+    display: inline-block;
+    margin-left: 300px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.cat-3-image {
+    width: 50px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.profile-picture {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.details {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.name-text {
+    margin: 0;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+}
+
+.description-text {
+    margin: 0;
+    font-family: Arial;
+    color: rgb(96, 96, 96);
+
+}
+
+.data-text {
+    margin: 0;
+    font-family: Arial;
+    color: rgb(96, 96, 96);
+    margin-top: 2px;
+}
+
+.follow-button {
+    display: inline-block;
+    margin-top: 25px;
+    vertical-align: top;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+.following-button {
+    background-color: rgb(36, 179, 236);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid rgb(36, 179, 236);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease;
+}
+
+.following-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 1);
+}
+
+.following-button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    background-color: white;
+    color: rgb(36, 179, 236);
+    
+}
