@@ -1,26 +1,3 @@
-.main-body {
-    background-image: linear-gradient(60deg, tomato, orange, yellow, green, skyblue);
-    animation: anim 10s ease-in-out infinite;
-}
-
-@keyframes anim {
-    0% {
-        background: linear-gradient(60deg, tomato, orange, yellow, green, skyblue);
-      }
-      25% {
-        background: linear-gradient(60deg, red, gold, limegreen, cyan, violet);
-      }
-      50% {
-        background: linear-gradient(60deg, purple, pink, salmon, orange, yellow);
-      }
-      75% {
-        background: linear-gradient(60deg, blue, deepskyblue, aqua, lightgreen, tomato);
-      }
-      100% {
-        background: linear-gradient(60deg, tomato, orange, yellow, green, skyblue);
-      }
-}
-
 
 .whole-theme {
     width: 360px;
@@ -59,6 +36,56 @@
     cursor: pointer;
 }
 
+.navigation {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    border-radius: 5px;
+}
+
+.log-in-button {
+    background-color: skyblue;
+    border: 2px solid rgb(53, 184, 235);
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.log-in-button:hover {
+
+}
+
+.button-selections {
+    display: inline-block;
+    margin-left: 850px;
+}
+
+.start-button {
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+
+}
+
+
+
 .ncea-button:hover {
     background-color: white;
     color: rgb(251, 207, 47);
@@ -72,7 +99,7 @@
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 .cat-3-image {
