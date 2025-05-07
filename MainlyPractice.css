@@ -1,21 +1,24 @@
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-
-    /* Add your animated background image below */
-    background: url("https://i.pinimg.com/originals/d2/e4/33/d2e433a119194661db9909a4162bcd36.gif") no-repeat center center fixed;
-    background-size: cover;
+.main-body {
+    background-image: linear-gradient(60deg, tomato, orange, yellow, green, skyblue);
+    animation: anim 10s ease-in-out infinite;
 }
 
-/* Optional: subtle overlay to increase content contrast */
-body::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* adjust for brightness */
-    z-index: -1;
+@keyframes anim {
+    0% {
+        background: linear-gradient(60deg, tomato, orange, yellow, green, skyblue);
+      }
+      25% {
+        background: linear-gradient(60deg, red, gold, limegreen, cyan, violet);
+      }
+      50% {
+        background: linear-gradient(60deg, purple, pink, salmon, orange, yellow);
+      }
+      75% {
+        background: linear-gradient(60deg, blue, deepskyblue, aqua, lightgreen, tomato);
+      }
+      100% {
+        background: linear-gradient(60deg, tomato, orange, yellow, green, skyblue);
+      }
 }
 
 
